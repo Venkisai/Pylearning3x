@@ -1,0 +1,7 @@
+name = input("Enter your name")
+print("Your name is", name)
+first_name = input("Enter your first name")
+last_name = input("Enter your last name")
+print("Your first name is", first_name, "Your last name is", last_name)
+FULL_NAME = input("ENTER YOUR FULL NAME")
+print("YOUR FULL NAME IS", FULL_NAME)
