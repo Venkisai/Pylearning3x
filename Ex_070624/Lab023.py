@@ -1,0 +1,28 @@
+list = ["a", "b", "c", "d"]
+print(list)
+shopping_list = ["atta", "bread", "curd", "donut", "eggs"]
+shopping_list.extend(["salt", "chips"])
+print(shopping_list)
+shopping_list.append("butter")
+print(shopping_list)
+shopping_list.insert(3, "jam")
+print(shopping_list)
+print(len(shopping_list))
+shopping_list.remove("donut")
+print(shopping_list)
+shopping_list.pop()
+print(shopping_list)
+shopping_list.reverse()
+print(shopping_list)
+shopping_list.sort()
+print(shopping_list)
+print(shopping_list[0])
+print(shopping_list[1])
+print(shopping_list[2])
+print(shopping_list[4])
+print(shopping_list[-1])
+print(shopping_list[-3])
+print(shopping_list[-5])
+
+my_list = [1,10.5,True,"Venkat"]
+print(type(my_list))
